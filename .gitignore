@@ -1,0 +1,26 @@
+# Local originals (the raw notebook contains a credential) - never publish
+_original_files/
+
+# Data, model weights and run outputs
+*.nii
+*.nii.gz
+*.npz
+*.pth
+*.pt
+*.ckpt
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+pdac_work/
+
+# Secrets and environment
+.env
+*.token
+
+# Python and notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# macOS
+.DS_Store
